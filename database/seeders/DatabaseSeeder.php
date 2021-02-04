@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
       //  User::factory(5)->create();
         //Videojuego::factory(10)->create();
-        $this->call(UserSeeder::class);
+        //$this->call(UserSeeder::class);
 
         $this->call(VideojuegoSeeder::class);
 
