@@ -19,7 +19,7 @@ class ReviewSeeder extends Seeder
         $review->videojuego_id = 1;
         $review->customer = "gamestop";
         $review->analysis = "bad game";
-        $review->star = 2.2;
+        $review->star = 2;
 
         $review->save();
 
